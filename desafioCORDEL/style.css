@@ -69,7 +69,11 @@ section.image {
 background-color: darkslategrey;
 color:white;
 text-shadow: 1.5px 1.5px 0px black;
+box-shadow: inset 4px 4px 4px 0px rgba(0, 0, 0, 0.739);
+background-size: cover;
+background-attachment: fixed;
 }
+
 
 section > p {
     padding-bottom: 1.3em;
@@ -79,18 +83,19 @@ section.image > p {
     display: inline-block;
     padding: 8px;
     background-color: rgba(0, 0, 0, 0.375);
+    
 }
 
 section#img01 {
 background-image: url("imagens/NTK09990.jpg");
-background-position:  center;
-background-size: cover;
+background-position: left left;
+
 }
 
 section#img02 {
     background-image: url("imagens/NTK09999.jpg");
-background-position: left center;
-background-size: cover;
+background-position: left left;
+
 }
 
 footer {
